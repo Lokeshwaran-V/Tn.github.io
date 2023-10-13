@@ -1,0 +1,37 @@
+
+.firstsector, .secondsector{
+    background-color: aqua;
+    margin: 0;
+    padding: 1%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center; 
+}
+.firstsector{
+    flex-wrap: wrap;
+}
+.secondsector{
+    flex-wrap: wrap-reverse;
+}
+.image1, .image2, .image3, .image4, .image5, .image6{
+    width: 35%;
+}
+img{
+    width: 100%;
+    border-radius: 20%;
+    justify-content: center;
+}
+.para1, .para2, .para3, .para4, .para5, .para6 {
+    width: 65%;
+    height: 50%;
+    flex: 350px 1;
+    align-content: flex-start;
+}
+p{
+    margin: 0;
+    padding: 5%;
+    
+}
